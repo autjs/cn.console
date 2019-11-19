@@ -25,8 +25,8 @@
 	// 第一种方式
 	import cn from 'cn.console'
 	
-	// 第二种方式
-	var cn = require('cn.console')
+	// 第二种方式，直接 require就行，cn是全局变量
+	require('cn.console')
 
 	// 第三种方式
 	<script type="text/javascript" src="cn.console.js">

@@ -1,6 +1,6 @@
 {
   "name": "cn.console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个用来打log的js包",
   "main": "cn.console.js",
   "scripts": {

@@ -16,7 +16,7 @@ let cn = (function(console) {
         console[k] = (function($met) {
             return function() {
                 if (console.switch) {
-                    let file = ___cncom___.__stack[1].getFileName();
+                    let file = ___cncom___.__stack[1].getFileName() || ___cncom___.__stack[1].getEvalOrigin();
                     let line = ___cncom___.__stack[1].getLineNumber();
                     let location = '[CN:' + file + ':' + line + ']'
                     location = '%c ' + location + '%c ';
